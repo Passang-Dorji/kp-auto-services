@@ -387,7 +387,7 @@ export default function Home() {
 					<div className="booking-options">
 						<a
 							className="booking-option whatsapp"
-							href="https://wa.me/15550144788?text=Hello%20Motivo%20Auto%20Care%2C%20I%27d%20like%20to%20book%20a%20service%20appointment."
+							href="https://wa.me/+97517461152?text=Hello%20Motivo%20Auto%20Care%2C%20I%27d%20like%20to%20book%20a%20service%20appointment."
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -400,7 +400,7 @@ export default function Home() {
 							</span>
 							<b aria-hidden="true">→</b>
 						</a>
-						<a className="booking-option phone" href="tel:+15550144788">
+						<a className="booking-option phone" href="tel:+975 17461152">
 							<span className="booking-icon" aria-hidden="true">
 								☎
 							</span>

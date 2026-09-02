@@ -433,9 +433,9 @@ export default function Home() {
 					<div>
 						<h4>Visit us</h4>
 						<p>
-							241 Motor Drive
+							Babesa Zero
 							<br />
-							Brookfield, NY 10012
+							Thimphu, Babesa
 						</p>
 					</div>
 					<div>

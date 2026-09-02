@@ -141,7 +141,7 @@ export default function Home() {
 				</div>
 			</div>
 			<header className="nav shell">
-				<a className="logo" href="#top" aria-label="Motivo home">
+				<a className="logo" href="#top" aria-label="KP home">
 					<span className="logo-mark">
 						<b>&#47;&#47;&#47;</b>
 					</span>
@@ -175,7 +175,7 @@ export default function Home() {
 			<section className="hero" id="top">
 				<Image
 					src="/garage-hero.png"
-					alt="Technician servicing a performance car in the Motivo workshop"
+					alt="Technician servicing a performance car in the KP workshop"
 					fill
 					priority
 					sizes="100vw"
@@ -307,7 +307,7 @@ export default function Home() {
 
 			<section className="why shell" id="why-us">
 				<div className="why-copy">
-					<div className="kicker">WHY MOTIVO</div>
+					<div className="kicker">WHY KP AUTO SERVICES</div>
 					<h2>
 						Good service is more
 						<br />
@@ -387,7 +387,7 @@ export default function Home() {
 					<div className="booking-options">
 						<a
 							className="booking-option whatsapp"
-							href="https://wa.me/+97517461152?text=Hello%20Motivo%20Auto%20Care%2C%20I%27d%20like%20to%20book%20a%20service%20appointment."
+							href="https://wa.me/+97517461152?text=Hello%20KP%20Auto%20Care%2C%20I%27d%20like%20to%20book%20a%20service%20appointment."
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -443,7 +443,7 @@ export default function Home() {
 						<p>
 							<a href="tel:+15550144788">+975 17461152</a>
 							<br />
-							<a href="mailto:hello@motivoauto.com">hello@motivoauto.com</a>
+							<a href="mailto:hello@KPauto.com">hello@KPauto.com</a>
 						</p>
 					</div>
 					<div>
@@ -456,7 +456,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="shell footer-bottom">
-					<span>© 2026 Motivo Auto Care. All rights reserved.</span>
+					<span>© 2026 KP Auto Care. All rights reserved.</span>
 					<span>
 						<a href="#">Privacy</a>
 						<a href="#">Terms</a>

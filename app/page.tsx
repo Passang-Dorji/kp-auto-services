@@ -38,25 +38,25 @@ const parts = [
 		icon: "disc",
 		title: "Brake Pads",
 		meta: "Bosch • Brembo • Akebono",
-		price: "$42.00",
+		price: "Nu.0.00",
 	},
 	{
 		icon: "plug",
 		title: "Spark Plugs",
 		meta: "NGK • Denso • Bosch",
-		price: "$16.50",
+		price: "Nu. 0.00",
 	},
 	{
 		icon: "filter",
 		title: "Oil Filters",
 		meta: "MANN • Mobil 1 • K&N",
-		price: "$12.00",
+		price: "Nu. 0.00",
 	},
 	{
 		icon: "battery",
 		title: "Car Batteries",
 		meta: "Varta • Exide • Bosch",
-		price: "$98.00",
+		price: "Nu. 0.00",
 	},
 ];
 
@@ -134,7 +134,7 @@ export default function Home() {
 				<div className="shell topbar-inner">
 					<span>Certified technicians. Honest service.</span>
 					<span className="top-links">
-						<a href="tel:+15550144788">☎ &nbsp; +975 17461152</a>
+						<a href="tel:+975 17461152">☎ &nbsp; +975 17461152</a>
 						<i />
 						Mon–Sat: 8:00 AM–6:00 PM
 					</span>
@@ -142,12 +142,14 @@ export default function Home() {
 			</div>
 			<header className="nav shell">
 				<a className="logo" href="#top" aria-label="KP home">
-					<span className="logo-mark">
-						<b>&#47;&#47;&#47;</b>
-					</span>
-					<span>
-						KP<small>AUTO CARE & PARTS</small>
-					</span>
+					<Image
+						src="/kp_logo.png"
+						alt="KP Autotech Workshop"
+						width={1536}
+						height={1024}
+						className="logo-image"
+						priority
+					/>
 				</a>
 				<nav aria-label="Main navigation">
 					<a className="active" href="#top">
@@ -360,9 +362,9 @@ export default function Home() {
 						the bill matched the quote. Finally, a workshop I can trust.”
 					</blockquote>
 					<div className="reviewer">
-						<span>JD</span>
+						<span>PD</span>
 						<div>
-							<b>James D.</b>
+							<b>Pee Dorji.</b>
 							<small>Verified customer</small>
 						</div>
 					</div>
@@ -410,7 +412,7 @@ export default function Home() {
 							</span>
 							<b aria-hidden="true">→</b>
 						</a>
-						<p className="booking-note">
+						<p className="booking-note ">
 							Available Monday–Saturday during workshop hours.
 						</p>
 					</div>
@@ -420,30 +422,46 @@ export default function Home() {
 			<footer id="contact">
 				<div className="shell footer-main">
 					<div>
-						<a className="logo footer-logo" href="#top">
-							<span className="logo-mark">
-								<b>&#47;&#47;&#47;</b>
-							</span>
-							<span>
-								KP<small>AUTO CARE & PARTS</small>
-							</span>
+						<a
+							className="logo footer-logo"
+							href="#top"
+							aria-label="KP Autotech Workshop home"
+						>
+							<Image
+								src="/kp_logo.png"
+								alt="KP Autotech Workshop"
+								width={1536}
+								height={1024}
+								className="logo-image"
+							/>
 						</a>
 						<p>Reliable care for every road ahead.</p>
 					</div>
 					<div>
 						<h4>Visit us</h4>
-						<p>
-							Babesa Zero
-							<br />
-							Thimphu, Babesa
-						</p>
+						<a
+							className="map-link "
+							href="https://www.google.com/maps/search/?api=1&query=KP+Autotech+Workshop+Babesa+Zero+Thimphu+Bhutan"
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label="Open KP Autotech Workshop location in Google Maps"
+						>
+							<span aria-hidden="true">⌖</span>
+							<span>
+								Babesa Zero
+								<small>Thimphu, Bhutan</small>
+							</span>
+							<b aria-hidden="true">↗</b>
+						</a>
 					</div>
 					<div>
 						<h4>Contact</h4>
 						<p>
-							<a href="tel:+15550144788">+975 17461152</a>
+							<a href="tel:++975 17461152">+975 17461152</a>
 							<br />
-							<a href="mailto:hello@KPauto.com">hello@KPauto.com</a>
+							<a href="mailto:kpautotechworkshop2024@gmail.com">
+								kpautotechworkshop2024@gmail.com
+							</a>
 						</p>
 					</div>
 					<div>
